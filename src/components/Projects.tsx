@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
         "Personalized gifting solution for employees and clients with sleek UI.",
       stack: ["React.js", "Tailwind CSS"],
       githubUrl: "https://github.com/kashi-verma/Ekatra",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/22a1632a-ec17-488e-883f-e040918bf58e.png",
     },
   ];
 
