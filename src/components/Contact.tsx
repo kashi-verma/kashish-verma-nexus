@@ -1,6 +1,5 @@
-
 import React, { useState } from "react";
-import { Mail, Phone, GitHub, Linkedin, Code, MessageCircle } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, Code, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact: React.FC = () => {
@@ -55,7 +54,7 @@ const Contact: React.FC = () => {
     {
       name: "GitHub",
       value: "github.com/kashi-verma",
-      icon: <GitHub className="text-accent" />,
+      icon: <Github className="text-accent" />,
       href: "https://github.com/kashi-verma",
     },
     {

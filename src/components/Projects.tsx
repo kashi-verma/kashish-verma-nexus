@@ -1,6 +1,6 @@
 
 import React from "react";
-import { GitHub, ExternalLink } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 interface Project {
   title: string;
@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
                     className="flex items-center space-x-1 text-foreground/70 hover:text-foreground transition-colors"
                     aria-label={`GitHub repository for ${project.title}`}
                   >
-                    <GitHub size={18} />
+                    <Github size={18} />
                     <span>Code</span>
                   </a>
                   

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { GitHub, Linkedin, Code, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Code, ExternalLink } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
                 className="text-foreground/70 hover:text-foreground transition-colors"
                 aria-label="GitHub"
               >
-                <GitHub />
+                <Github />
               </a>
               <a
                 href="https://www.linkedin.com/in/kashish-verma-2801332a1/"
