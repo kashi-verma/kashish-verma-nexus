@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
         "Enables feedback collection via unique shareable URLs. Includes email verification and AI-powered message suggestions.",
       stack: ["React.js", "Next.js", "MongoDB", "OpenAI API"],
       githubUrl: "https://github.com/kashi-verma/Fidelio-feedback-app",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/83b78279-fdea-492c-a519-26d9d49c71d1.png",
     },
     {
       title: "Horizon – Banking SaaS Platform",
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
         "Tailwind CSS",
       ],
       githubUrl: "https://github.com/kashi-verma/Horizon",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/52c1e4ce-bb11-4265-9103-ca23a326a60e.png",
     },
     {
       title: "Ekatra – Corporate Gifting Platform",
