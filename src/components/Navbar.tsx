@@ -67,10 +67,10 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo/Name */}
+          {/* Logo/Name - made smaller */}
           <a 
             href="#home" 
-            className="text-xl font-bold text-foreground flex items-center"
+            className="text-base font-bold text-foreground flex items-center"
             onClick={(e) => handleNavClick(e, "#home")}
           >
             <span className="text-accent">K</span>ashish<span className="text-accent">V</span>erma
