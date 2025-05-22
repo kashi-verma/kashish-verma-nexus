@@ -70,14 +70,14 @@ const Navbar: React.FC = () => {
           {/* Logo/Name - made smaller */}
           <a 
             href="#home" 
-            className="text-base font-bold text-foreground flex items-center"
+            className="text-base font-bold text-foreground flex items-center mr-8"
             onClick={(e) => handleNavClick(e, "#home")}
           >
             <span className="text-accent">K</span>ashish<span className="text-accent">V</span>erma
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-4">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
                 {item.label}
               </a>
             ))}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 ml-4">
               <a
                 href="https://drive.google.com/file/d/1PnhX2dPWkN32m36N8AuWdx8k4KxTGoA0/view"
                 target="_blank"
